@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:wght@300;400;500;600;700;800;900;1000&display=swap');
+
+*{
+    font-family: 'Nunito', 'Great+Vibes' ;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+.fpage {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.302), #05042eb3),
+        url("/b3.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.htag {
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+.btn {
+    padding:1rem 2rem ;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: rgb(115, 169, 191);
+    color: rgb(40, 18, 18);
+}
